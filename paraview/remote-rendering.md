@@ -10,7 +10,19 @@ description: Running Paraview remote rendering on the cave nodes
 _You might affect other users in the system. To avoid it, please email **support@ccv.brown.edu** requesting access to the **BROWN YURT Calendar** and check the system availability_
 {% endhint %}
 
-_Paraview Tutorial_
+## First, Is The System Available?
+
+Once you get access to the BROWN YURT Calendar check for free slots at the time you want to use the system. i.e You would like to use it on a Wednesday at 11 am.
+
+![](../.gitbook/assets/image%20%281%29.png)
+
+In the above image, the 11 am slot is taken, so you cannot access the system during that period of time.  However, there is plenty of time before 11 am. Let's book it at 9 am.
+
+![](../.gitbook/assets/image.png)
+
+Click on **"Save".** At the moment, this is the only way we have records on who and how the system is being used. Make sure to do it only on your reserved time. _You are sharing the resources with all the Brown community, and everyone has the right to access it._
+
+## _Paraview  Remote Rendering Tutorial_
 
 **Getting VNC**
 
