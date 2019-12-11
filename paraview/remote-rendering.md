@@ -2,7 +2,7 @@
 description: Running Paraview remote rendering on the cave nodes
 ---
 
-# Remote Rendering
+# Remote Rendering in Oscar
 
 _Paraview Tutorial_
 
