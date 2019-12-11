@@ -1,6 +1,6 @@
 # Table of contents
 
-* [CCV VISUALIZATION](README.md)
+* [Introduction](README.md)
 
 ## Paraview
 
