@@ -4,5 +4,5 @@
 
 ## Paraview
 
-* [Remote Rendering in Oscar](paraview/remote-rendering.md)
+* [Remote Rendering](paraview/remote-rendering.md)
 

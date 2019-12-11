@@ -1,5 +1,7 @@
 ---
-description: Documentation on the visualization software CCV uses to support
+description: >-
+  Documentation on the visualization software CCV uses to support 3D, VR and
+  CAVE systems
 ---
 
 # Introduction

@@ -2,7 +2,13 @@
 description: Running Paraview remote rendering on the cave nodes
 ---
 
-# Remote Rendering in Oscar
+# Remote Rendering
+
+![This feature is not fully supported by CCV yet. You could have some restrictions in order to use it ](../.gitbook/assets/warning.png)
+
+{% hint style="danger" %}
+_You might affect other users in the system. To avoid it, please send and email to support@ccv.brown.edu requesting access to the **BROWN YURT Calendar** and check the system availability_
+{% endhint %}
 
 _Paraview Tutorial_
 
