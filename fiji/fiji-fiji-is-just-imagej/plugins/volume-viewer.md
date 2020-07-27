@@ -10,17 +10,17 @@ Download the following dataset.
 
 Open Fiji, go to File -&gt; Open and select the example dataset.
 
-![](../../../.gitbook/assets/image%20%2824%29.png)
+![](../../../.gitbook/assets/image%20%2828%29.png)
 
 Now, keeping the image on top , go to Plugins -&gt; Volume Viewer
 
 
 
-![](../../../.gitbook/assets/image%20%2815%29.png)
+![](../../../.gitbook/assets/image%20%2819%29.png)
 
 You will get the following pop up window
 
-![](../../../.gitbook/assets/image%20%2818%29.png)
+![](../../../.gitbook/assets/image%20%2822%29.png)
 
 The official documentation of the plugin cab be found in the following link
 
@@ -32,7 +32,7 @@ It is a bit short. Here we are going to play using our example data.
 
 The default view displays a cross section of the data. Let's display the whole volume. The first option of the top menu bar allows you to change the visualization mode. It is set at slice, switch it to volume.
 
-![](../../../.gitbook/assets/image%20%2819%29.png)
+![](../../../.gitbook/assets/image%20%2823%29.png)
 
 Press and hold the mouse left click and drag the mouse to rotate the DataSet
 
@@ -44,15 +44,15 @@ The different slice representations from different planes are show at the left s
 
 At the right side you can find the transfer function of the data set. We can modify the color space of the data. Switch from Original to GrayScale.
 
-![](../../../.gitbook/assets/image%20%287%29.png)
+![](../../../.gitbook/assets/image%20%288%29.png)
 
 Switch to thermal. This scale is made to determine cold \(blue\) to hot\(red\) temperatures
 
-![](../../../.gitbook/assets/image%20%2816%29.png)
+![](../../../.gitbook/assets/image%20%2820%29.png)
 
 Try to play with the transfer function graph to change the color of the purple block surrounding the data. Below the graph you can modify the transparency \(alpha value\) of the RGB values according to the color function.
 
-![](../../../.gitbook/assets/image%20%2825%29.png)
+![](../../../.gitbook/assets/image%20%2829%29.png)
 
 You can UNDO all the changes using the button RESET at the top right.
 

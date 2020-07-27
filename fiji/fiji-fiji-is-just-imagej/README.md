@@ -64,7 +64,7 @@ $ ImageJ-linux64
 
 You will see the Fiji Window
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 For instructions on how to use the basic functionalities please follow the guide at:
 
