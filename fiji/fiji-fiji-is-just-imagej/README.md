@@ -66,6 +66,8 @@ You will see the Fiji Window
 
 ![](../../.gitbook/assets/image%20%2827%29.png)
 
+### Tutorials
+
 For instructions on how to use the basic functionalities please follow the guide at:
 
 ```text
@@ -79,4 +81,14 @@ Also, You can follow this video playlist from the Melbourne Advanced Microscopy 
 ```text
 https://www.youtube.com/watch?v=1ZR3eztlvLo&list=PLvHJ_gpVJo-S9VIkZ7XJIYll3zpQoL0L7
 ```
+
+### Data Examples
+
+Fiji has a list of data samples you can play with. They are located at.
+
+```text
+https://imagej.nih.gov/ij/images/
+```
+
+
 

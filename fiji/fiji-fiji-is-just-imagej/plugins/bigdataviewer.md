@@ -47,5 +47,7 @@ Now, going back to BigDataViewer. This plugin works with custom format specializ
 
 Keep the deflate compression and select the path you want the resulting XML file.
 
+Depending on the size of the data, the process can take several minutes. Please be patience and check for exporting errors.
+
 
 
