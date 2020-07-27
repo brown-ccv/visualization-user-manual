@@ -13,5 +13,4 @@
   * [Plugins](fiji/fiji-fiji-is-just-imagej/plugins/README.md)
     * [Volume Viewer](fiji/fiji-fiji-is-just-imagej/plugins/volume-viewer.md)
     * [ImajeJ 3D Viewer](fiji/fiji-fiji-is-just-imagej/plugins/imajej-3d-viewer.md)
-    * [Segmentation](fiji/fiji-fiji-is-just-imagej/plugins/segmentation.md)
 
