@@ -6,11 +6,15 @@ description: >-
 
 # Introduction
 
-Welcome to CCV's User Manual for visualization software
+Welcome to CCV's User Manual for visualization software. This is a collaborative effort from the all the ccv visualization team to provide documentation on how to use different resources to showcase 2D/3D data and analyze it using several algorithms available in the specific tool.
 
-### Paraview
 
-{% page-ref page="fiji/fiji-fiji-is-just-imagej/" %}
+
+
+
+
+
+### 
 
 
 
