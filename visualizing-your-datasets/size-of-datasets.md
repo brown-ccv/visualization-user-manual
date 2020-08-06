@@ -14,11 +14,11 @@ Take in count RAM is shared across all the applications in your task bar, plus t
 
 ### Getting More RAM
 
-One solution to this problem is simply buying more RAM. At the moment this article was written the maximum RAM a standard desktop can have is 128 GB. More advance computers can get up to 2 TB. Also adding more CPU cores and  GPUs might do the trick. However, the main obstacle for this solution is budget.
+One solution to this problem is simply buying more RAM. At the moment this article was written the maximum RAM a standard desktop can have is 128 GB. More advance computers can get up to 2 TB. Also adding more CPU cores and  GPUs might do the trick. However, the main obstacle for this solution is money.
 
 #### Cons
 
-RAM is expensive, and not all motherboards can support a high amount of it. So a modern motherboard has to be bought as well. Also, GPUs are not cheap either, and there is a point when the price of a high tech computer with the latest gadgets gets beyond budget.
+RAM is expensive, and not all motherboards can support a high amount of it. So a modern motherboard has to be bought as well. Also, GPUs are not cheap either, and there is a point when the price of a high tech computer with the latest gadgets gets beyond any  budget.
 
 {% hint style="info" %}
 _**Please take all the mentioned details in count at the moment of going with this option. If you need ANY HELP  or more information about the right specifications, please DO contact CCV Visualization group sending a email to `support@ccv.brown.edu.`**_ 
