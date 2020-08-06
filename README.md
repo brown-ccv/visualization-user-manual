@@ -6,7 +6,33 @@ description: >-
 
 # Introduction
 
-Welcome to CCV's User Manual for visualization software. This is a collaborative effort from the all the ccv visualization team to provide documentation on how to use different resources to showcase 2D/3D data and analyze it using several algorithms available in the specific tool.
+Welcome to CCV's User Manual for visualization software. This is a collaborative effort from the all the CCV visualization team to provide documentation on how to use different resources to showcase 2D/3D data and analyze it using several algorithms available in the specific tool.
+
+## C**enter for** Computation and Visualization \(CCV\)
+
+We are a group of data scientist, researches and engineers working together to help the academic community on studying and analyzing data. We enjoy developing tools, implementing interactive applications and work the latest technologies to help scientist to move forward with their projects.
+
+We are fully committed to provide technical and scientific support and share knowledge across Brown university.
+
+To know more about us and our services, please follow the links:
+
+* [Main Website](https://ccv.brown.edu/)
+* [About CCV](https://ccv.brown.edu/about/)
+* [Brown University](https://www.brown.edu/)
+
+## Visualization Team
+
+| Full Name | Contact |
+| :--- | :--- |
+| Benjamin Knorlein  | [benjamin\_knorlein@brown.edu](mailto:benjamin_knorlein@brown.edu) |
+| Camilo Diaz | [camilo\_diaz@brown.edu](mailto:camilo_diaz@brown.edu) |
+| Isabel Restrepo | [maria\_restrepo@brown.edu](mailto:maria_restrepo@brown.edu) |
+
+   
+
+    
+
+## 
 
 
 

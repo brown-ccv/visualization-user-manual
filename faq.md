@@ -1,3 +1,7 @@
+---
+description: Frequently asked questions
+---
+
 # FAQ
 
 **Q: Can CCV help me acquiring data?**
