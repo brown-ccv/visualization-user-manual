@@ -6,7 +6,7 @@ description: How much information is in your hands.
 
 Additionally, how large is the dataset? How much space does it occupy in hard disk? This might affect the performance of your computer at the moment you work with it. Nowadays,  the most sophisticated scanners, microscopes and cameras produce very high definition \(HD\) images which consume a lot of space in memory. Opening a large 3D data with 4K HD quality will use most of your RAM,  and it will affect user interaction and lower  the frames per second \(fps\).
 
-## How to work with over 4 GB DataSets
+## How to work with DataSets over the 4 GB 
 
 Nowadays, an average personal computer can have up to 16 Gigabytes \(GB\) of [RAM](https://en.wikipedia.org/wiki/Random-access_memory). More powerful gaming stations can have 32 or  48 GB. Although, the amount of RAM keeps increasing over the years, the size of data has also increased at a faster pace. Advance tech devices acquire high definition data producing files over the 4 GB, and a whole dataset easily can weight over the 30 GB.
 
@@ -18,7 +18,7 @@ One solution to this problem is simply buying more RAM. At the moment this artic
 
 #### Cons
 
-RAM is expensive, and not all motherboards can support a high amount of it. So a modern motherboard has to be bought as well. Also, GPUs are not cheap either, and there is a point when the price for a computer with the latest gadgets gets beyond budget.
+RAM is expensive, and not all motherboards can support a high amount of it. So a modern motherboard has to be bought as well. Also, GPUs are not cheap either, and there is a point when the price of a high tech computer with the latest gadgets gets beyond budget.
 
 {% hint style="info" %}
 _**Please take all the mentioned details in count at the moment of going with this option. If you need ANY HELP  or more information about the right specifications, please DO contact CCV Visualization group sending a email to `support@ccv.brown.edu.`**_ 
