@@ -30,7 +30,31 @@ A high tech desktop computer with over 1 TB of RAM is extremely useful for ANY t
 
 ### High Performance Computer \(HPC\) Cluster 
 
-  
+Distributed computing architectures and Parallel programming can help loading large datasets at a cheap cost. Multiple institutions \(educational and private\) offer cloud services where users can rent/request RAM,  CPU and GPU from computers hosted in HPC facilities.
+
+Using this kind of service reduce the complexity of your  desktop computer, and all the updates will be held on the server side. High tech hardware and software is available without downloading them or installing them in your local device.
+
+![HPC service offers multiple and powerful resources accessible from simple desktop computers](../.gitbook/assets/hpccluster.jpg)
+
+However,  the only requirement is to have an internet connection. Also, it could be offered as a subscription services \(involving monthly fees\) depending on the amount of resources to work with.
+
+{% hint style="info" %}
+Brown University offers HPC services for multiple tasks. For more information please follow the [link](https://ccv.brown.edu/#computing)
+{% endhint %}
+
+#### Divide and conquer
+
+Large datasets can be subdivide in multiple parts and distributed within the HPC \(multiple nodes\), where specialized software can synchronize the split data, and send the result frame to a external device \(user's local device\). This solves the problem of visualizing large datasets, making it easy and cheap to analyze.
+
+#### Cons
+
+The internet connection on the user's side must be reliable and the more bandwidth the better. Studying large datasets can take some time and losing the connection in the middle of the process could make you start from zero \(This is not true for batch jobs\). Slow connections can deteriorate the interaction with the data and frustrate any attempt to analyze it.
+
+The quality of the server side side also impacts the process. If multiple users request resources at the same time, some of them will have to wait until more resources are available. The more CPU and GPU you can access the better. However, obtaining more computational power might imply additional fees. Sometimes, the servers are out of service for maintenance and updates, so users will be affected by this downtime.
+
+
+
+
 
 
 
