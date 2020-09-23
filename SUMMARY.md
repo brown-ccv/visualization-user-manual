@@ -11,7 +11,7 @@
 
 ## Paraview
 
-* [Remote Rendering](paraview/remote-rendering.md)
+* [Remote Rendering Server](paraview/remote-rendering.md)
 
 ## Fiji
 

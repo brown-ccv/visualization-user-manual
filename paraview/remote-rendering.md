@@ -1,30 +1,45 @@
 ---
-description: Running Paraview remote rendering on the cave nodes
+description: Running Paraview Remote Rendering in Oscar
 ---
 
-# Remote Rendering
+# Remote Rendering Server
 
-![This feature is not fully supported by CCV yet. You could have some restrictions in order to use it ](../.gitbook/assets/warning.png)
-
-{% hint style="danger" %}
-_You might affect other users in the system. To avoid it, please email **support@ccv.brown.edu** requesting access to the **BROWN YURT Calendar** and check the system availability_
+{% hint style="info" %}
+In order to follow this guide, you need access to Brown University's HPC system "Oscar". Please refer to the official [ccv website](https://ccv.brown.edu/) and go to the Documentation section where you can find all the help related on how to connect and use it.
 {% endhint %}
 
-## First, Is The System Available?
+The Center for Computation and Visualization offers to the academic community a way to visualize datasets using Oscar and its powerful GPUs as a rendering server. The current hardware at the HPC surpass the common desktop models, offering a modern an robust solution to display large datasets in parallel jobs using the widely used  opensource software [Paraview](https://www.paraview.org/). It is a simple "two steps" process. Start the server and connect the client.
 
-Once you get access to the BROWN YURT Calendar check for free slots at the time you want to use the system. i.e You would like to use it on a Wednesday at 11 am.
 
-![](../.gitbook/assets/image%20%281%29.png)
 
-In the above image, the 11 am slot is taken, so you cannot access the system during that period of time.  However, there is plenty of time before 11 am. Let's book it at 9 am.
+## Start the server
 
-![](../.gitbook/assets/image.png)
+You need to allocate the resources via slurm indicating the number of CPUs, GPUs and the amount of memory you want to run the server with. Luckily, there is a program in Oscar that facilitates this request.
 
-Click on **"Save".** At the moment, this is the only way we have records on who and how the system is being used. Make sure to do it only on your reserved time. _You are sharing the resources with all the Brown community, and everyone has the right to access it._
+`run-remote-server -u your_brown_email@brown.edu`
 
-## _Paraview  Remote Rendering Tutorial_
+By default, the script request 4 CPUs, 4 GPUs and 30G of RAM. But you can modify these by adding more parameters to the command.
 
-**Getting VNC**
+`usage: run-remote-render [-n cores] [-t walltime] [-m memory] [-q queue] [-o outfile] [-g ngpus] [-u user brown email]  
+Allocates resources, start up the render server and send and email to the user requesting the service  
+options:   
+-c cores (default: 4)   
+-t walltime as hh:mm:ss (default: 1:30:00)   
+-m memory as #[k|m|g] (default: 30G)   
+-o outfile save a copy of the session's output to outfile (default: off)  
+-g ngpus (default 4)  
+-u brown email of the user requesting the service`
+
+As the command executes as a batch job that will get resources when they are available, an email is sent to the user indicating that the service is running and the IP address you need to connect to. 
+
+`Your PVSERVER connection is ready  
+ Your connection to paraview server is ready at: gpu1210.oscar.ccv.brown.edu:1111`  
+  
+The message indicates you have to connect to the server `gpu1210.oscar.ccv.brown.edu` through the port `11111` . 
+
+## Connect to the server
+
+### Using  VNC Virtual Desktop
 
 1.  Go to [https://web1.ccv.brown.edu/technologies/vnc](https://web1.ccv.brown.edu/technologies/vnc) and download [CCV VNC client 2.0.2](https://brownbox.brown.edu/download.php?hash=fe8b9a93)
 2. Doble click on the CCV\_VNC\_2.0.1.jar
@@ -43,17 +58,11 @@ Click on **"Save".** At the moment, this is the only way we have records on who 
 **Opening Paraview UI**
 
 1. Open terminal: Applications - &gt; Utilities -&gt; Terminal \(this might differ depending on the Operating System UI\)
-2. Run the command
+2. Run the commands
 
-$ module load paraview/5.6.0\_no\_scalable
+$ module load paraview/5.8.0
 
-Read the pop up message “module load mpi/cave\_mvapich2\_2.3rc2\_gcc before launching paraview”
-
-It means, on the terminal run the following command:
-
-$ module load mpi/cave\_mvapich2\_2.3rc2\_gcc
-
-1. Run the command
+$module load mpi/openmpi\_4.0.4\_gcc
 
  $ paraview\_ui
 
@@ -77,37 +86,64 @@ B. Otherwise go to ‘Add Server’:
 
 ![](../.gitbook/assets/5.png)
 
-name the connection ‘Remote Rendering’’, select Server type ‘Client / Server’, Host : cave001, Port: **11111**, click ‘Configure’ button
+name the connection ‘Remote Rendering’’, select Server type ‘Client / Server’,**.**  
+The host is the IP sent in the email. In our example is `gpu1210.oscar.ccv.brown.edu`  , and the port `11111`
 
-In the next screen, select Startup Type : Command. In the Text field area paste the following command:
+In the next screen, select Startup Type : Manual. Click on Save, select the new created connection and click ‘Connect’
 
- /gpfs/runtime/opt/paraview/5.6.0\_no\_scalable/bin/run\_pserver
+ After a few seconds, you get connected to the HPC automatically.
 
-![](../.gitbook/assets/6.png)
+### **Using your desktop computer.**
 
-Click ‘Save’.
+Go to the official [Paraview Download website](https://www.paraview.org/download/). Select your Operational system \(Linux, Windows or Mac\) and get the file `ParaView-5.8.0-Windows-Python3.7` . Install in your environment, go to the installation directory and open Paraview.
 
-Select the new created connection and click ‘Connect’
+#### Setting up Connection Tunneling.
 
- After a few seconds, you get connected to the HPC automatically
+If your local machine is not connected directly to the brown network, you have to follow this part.  
+Open a terminal and execute the command:
 
-**Loading Data**
+`ssh -N -L 11111:SERVER_IP:11111 your_brown_id@ssh.ccv.brown.edu`
 
-There are data examples you can test with paraview.
+where `SERVER_IP` is the ip sent in the email and `your_brown_id` is your Brown username \(It should be the same used to connect to the wi-fi\)  
+After typing  your credentials, you will notice the terminal command line hangs. That is normal, it indicates you are connected and the tunneling is set up.
 
-1. Go to File -&gt; Open
-2. Go to the following path:
-
-/gpfs/runtime/opt/paraview/5.6.0\_no\_scalable/TestData/Data
-
-1. Select bunny.ply or any other file \(some of them do not load properly and the application might crash, you’ll have to open paraview ui again and reconnect to the server\)
-2. You might have to apply the latest changes into the scene. At the left side of the UI go to the “Properties” tab and click “apply”
-
-**Disconnecting from the remote server**
+**Connecting to the remote server**
 
 This step will reset the scene, so before doing it make sure to save all your data.
 
-1. In paraview UI go to menu bar File -&gt; Disconnect ..
+1. In paraview UI go to menu bar File -&gt; Connect ..
 
-In the follow pop window click ok.
+![](../.gitbook/assets/4.png)
+
+1. A. If you find a connection named **Remote rendering**. click ‘connect’
+
+B. Otherwise go to ‘Add Server’:
+
+![](../.gitbook/assets/5.png)
+
+name the connection ‘Remote Rendering’’, select Server type ‘Client / Server’,**.**  
+The host is the IP sent in the email. In our example is **`localhost`** , and the port `11111`
+
+In the next screen, select Startup Type : Manual. Click on Save, select the new created connection and click ‘Connect’
+
+ After a few seconds, you get connected to the HPC automatically.
+
+### Verifying the connection is set up correctly.
+
+In Paraview UI go to the menu bar "View" and select "Memory Inspector". You will notice a list of servers indicating the number of processes running on them
+
+
+
+## Summary
+
+1.  Open a terminal an connect to Oscar \(Follow [this link](https://docs.ccv.brown.edu/oscar/getting-started) to know how to do it\)
+2.  Execute the command `run-remote-server -u your_brown_email@brown.edu`.
+3.  Wait for the email indicating the server is running 
+4. Connect to the server using Paraview Client
+
+
+
+If you find any issues following this guide or require additional help, do not hesitate contacting ccv services at `support@ccv.brown.edu`
+
+
 
