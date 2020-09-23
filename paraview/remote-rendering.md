@@ -39,6 +39,41 @@ The message indicates you have to connect to the server `gpu1210.oscar.ccv.brown
 
 ## Connect to the server
 
+### **Using your desktop computer \(Recommended\)**
+
+Go to the official [Paraview Download website](https://www.paraview.org/download/). Select your Operational system \(Linux, Windows or Mac\) and get the file `ParaView-5.8.0-Windows-Python3.7` . Install in your environment, go to the installation directory and open Paraview.
+
+#### Setting up Connection Tunneling.
+
+If your local machine is not connected directly to the brown network, you have to follow this part.  
+Open a terminal and execute the command:
+
+`ssh -N -L 11111:SERVER_IP:11111 your_brown_id@ssh.ccv.brown.edu`
+
+where `SERVER_IP` is the ip sent in the email and `your_brown_id` is your Brown username \(It should be the same used to connect to the wi-fi\)  
+After typing  your credentials, you will notice the terminal command line hangs. That is normal, it indicates you are connected and the tunneling is set up.
+
+**Connecting to the remote server**
+
+This step will reset the scene, so before doing it make sure to save all your data.
+
+1. In paraview UI go to menu bar File -&gt; Connect ..
+
+![](../.gitbook/assets/4.png)
+
+1. A. If you find a connection named **Remote rendering**. click ‘connect’
+
+B. Otherwise go to ‘Add Server’:
+
+![](../.gitbook/assets/5.png)
+
+name the connection ‘Remote Rendering’’, select Server type ‘Client / Server’,**.**  
+The host is the IP sent in the email. In our example is **`localhost`** , and the port `11111`
+
+In the next screen, select Startup Type : Manual. Click on Save, select the new created connection and click ‘Connect’
+
+ After a few seconds, you get connected to the HPC automatically.
+
 ### Using  VNC Virtual Desktop
 
 1.  Go to [https://web1.ccv.brown.edu/technologies/vnc](https://web1.ccv.brown.edu/technologies/vnc) and download [CCV VNC client 2.0.2](https://brownbox.brown.edu/download.php?hash=fe8b9a93)
@@ -93,40 +128,7 @@ In the next screen, select Startup Type : Manual. Click on Save, select the new 
 
  After a few seconds, you get connected to the HPC automatically.
 
-### **Using your desktop computer.**
-
-Go to the official [Paraview Download website](https://www.paraview.org/download/). Select your Operational system \(Linux, Windows or Mac\) and get the file `ParaView-5.8.0-Windows-Python3.7` . Install in your environment, go to the installation directory and open Paraview.
-
-#### Setting up Connection Tunneling.
-
-If your local machine is not connected directly to the brown network, you have to follow this part.  
-Open a terminal and execute the command:
-
-`ssh -N -L 11111:SERVER_IP:11111 your_brown_id@ssh.ccv.brown.edu`
-
-where `SERVER_IP` is the ip sent in the email and `your_brown_id` is your Brown username \(It should be the same used to connect to the wi-fi\)  
-After typing  your credentials, you will notice the terminal command line hangs. That is normal, it indicates you are connected and the tunneling is set up.
-
-**Connecting to the remote server**
-
-This step will reset the scene, so before doing it make sure to save all your data.
-
-1. In paraview UI go to menu bar File -&gt; Connect ..
-
-![](../.gitbook/assets/4.png)
-
-1. A. If you find a connection named **Remote rendering**. click ‘connect’
-
-B. Otherwise go to ‘Add Server’:
-
-![](../.gitbook/assets/5.png)
-
-name the connection ‘Remote Rendering’’, select Server type ‘Client / Server’,**.**  
-The host is the IP sent in the email. In our example is **`localhost`** , and the port `11111`
-
-In the next screen, select Startup Type : Manual. Click on Save, select the new created connection and click ‘Connect’
-
- After a few seconds, you get connected to the HPC automatically.
+### \*\*\*\*
 
 ### Verifying the connection is set up correctly.
 
