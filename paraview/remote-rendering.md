@@ -61,7 +61,7 @@ This step will reset the scene, so before doing it make sure to save all your da
 
 ![](../.gitbook/assets/4.png)
 
-1. A. If you find a connection named **Remote rendering**. click ‘connect’
+A. If you find a connection named **Remote rendering**. click ‘connect’
 
 B. Otherwise go to ‘Add Server’:
 
