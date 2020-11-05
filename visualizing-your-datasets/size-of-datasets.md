@@ -44,7 +44,7 @@ Brown University offers HPC services for multiple tasks. For more information pl
 
 #### Divide and conquer
 
-Large datasets can be subdivide in multiple parts and distributed within the HPC \(multiple nodes\), where specialized software can synchronize the split data, and send the result frame to a external device \(user's local device\). This solves the problem of visualizing large datasets, making it easy and cheap to analyze.
+Large datasets can be subdivide in multiple parts and distributed within the HPC \(multiple nodes\), where specialized software can synchronize the split data, and send the result frame to a external device \(user's local device\). This solves the problem of visualizing large datasets, making it easy and cheap to analyze them.
 
 #### Cons
 
