@@ -20,7 +20,7 @@ One solution to this problem is simply buying more RAM. At the moment this artic
 
 RAM is expensive, and not all motherboards can support a high amount of it. So, a modern motherboard has to be bought as well. Also, GPUs are not cheap either, and there is a point when the price of a high tech computer with the latest gadgets gets beyond any  budget.
 
-{% hint style="info" %}
+{% hint style="success" %}
 _**Please take all the mentioned details in count at the moment of going with this option. If you need ANY HELP  or more information about the right specifications, please DO contact CCV Visualization group sending a email to `support@ccv.brown.edu.`**_ 
 {% endhint %}
 
