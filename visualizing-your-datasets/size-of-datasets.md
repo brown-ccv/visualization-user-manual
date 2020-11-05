@@ -10,7 +10,7 @@ Additionally, how large is the dataset? How much space does it occupy in hard di
 
 Nowadays, an average personal computer can have up to 16 Gigabytes \(GB\) of [RAM](https://en.wikipedia.org/wiki/Random-access_memory). More powerful gaming stations can have 32 or  48 GB. Although, the amount of RAM keeps increasing over the years, the size of data has also increased at a faster pace. Advance tech devices acquire high definition data producing files over the 4 GB, and a whole dataset easily can weight over the 30 GB.
 
-Take in count RAM is shared across all the applications in your task bar, plus the operational system. For example, your browser can consume 3 GB, plus the music played, plus videos, plus the applications you typically work with. Leaving between 8 or 5 GB of free RAM to work with other files. Opening a single 4 GB dataset takes almost half of your available memory. At this point your computer will start slowing down affecting its performance, some applications will close automatically and you might regret opening the file.
+Take in count RAM is shared across all the applications in your task bar, plus the operational system. For example, your browser can consume 3 GB, plus the music player, plus videos, plus the applications you typically work with. Leaving between 8 or 5 GB of free RAM to work with other files. Opening a single 4 GB dataset takes almost half of your available memory. At this point your computer will start slowing down affecting its performance, some applications will close automatically and you might regret opening the file.
 
 ### Getting More RAM
 
