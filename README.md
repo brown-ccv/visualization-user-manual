@@ -24,7 +24,7 @@ To know more about us and our services, please follow the links:
 
 | Full Name | Contact |
 | :--- | :--- |
-| Benjamin Knorlein  | [benjamin\_knorlein@brown.edu](mailto:benjamin_knorlein@brown.edu) |
+| Benjamin Knörlein  | [benjamin\_knorlein@brown.edu](mailto:benjamin_knorlein@brown.edu) |
 | Camilo Diaz | [camilo\_diaz@brown.edu](mailto:camilo_diaz@brown.edu) |
 | Isabel Restrepo | [maria\_restrepo@brown.edu](mailto:maria_restrepo@brown.edu) |
 
