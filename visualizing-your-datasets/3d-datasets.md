@@ -6,7 +6,7 @@ description: Learn about three dimensional data and how to work with it
 
 ### 3D Data
 
-Contrary to its two dimensional counter part, three dimensional data comes in several shapes.
+Contrary to its two dimensional counter part, three-dimensional \(3D\) data comes in several shapes.
 
 * Meshes: It is structural build of a 3D model based on polygons. Every point in a mesh represents a point in space called vertex. This point is connected to  two or more vertices creating a base geometry shape such as triangles and quads. Connecting multiple triangles together, they form a three dimensional structure that can be displayed on a monitor.
 
