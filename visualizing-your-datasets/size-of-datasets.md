@@ -4,13 +4,13 @@ description: How much information is in your hands.
 
 # Size of Datasets
 
-Additionally, how large is the dataset? How much space does it occupy in hard disk? This might affect the performance of your computer at the moment you work with it. Nowadays,  the most sophisticated scanners, microscopes and cameras produce very high definition \(HD\) images which consume a lot of space in memory. Opening a large 3D data with 4K HD quality will use most of your RAM,  and it will affect user interaction and lower  the frames per second \(fps\).
+Another fundamental question to consider when visualizing data is: "_How large is the data_ _set?"_ Or put differently, "_How much space does it occupy on the hard disk?_" This might affect the performance of your computer at the moment you work with it. Nowadays,  the most sophisticated scanners, microscopes and cameras produce very high definition \(HD\) images which consume a lot of space in memory. Opening a large 3D data with 4K HD quality will likely use most of your machine's RAM,  and it will affect user interaction and lower  the frames per second \(fps\).
 
-## How to work with DataSets over the 4 GB 
+## How to work with Data Sets over the 4 GB 
 
-Nowadays, an average personal computer can have up to 16 Gigabytes \(GB\) of [RAM](https://en.wikipedia.org/wiki/Random-access_memory).  Powerful gaming stations can have up to 48 GB. Although, the amount of RAM keeps increasing over the years, the size of data also does it, but at a faster pace. Advance tech devices acquire high definition data producing files over the 4 GB, and a whole dataset easily can weight over the 30 GB.
+Nowadays, even a fairly average personal computer can have 16 Gigabytes \(GB\) of [RAM](https://en.wikipedia.org/wiki/Random-access_memory).  Powerful gaming stations can have up to 64 GB. Although, the amount of RAM keeps increasing over the years, the size of data does as well—but at an even faster pace. Advance tech devices acquire high definition data producing files over the 4 GB, and a whole data set easily can exceed 30 GB.
 
-Take in count RAM is shared across all the applications in your task bar, plus the operational system. For example, your browser can consume 3 GB, plus the music player, plus videos, plus the applications you typically work with. Leaving between 8 or 5 GB of free RAM to work with other files. Opening a single 4 GB dataset takes almost half of your available memory. At this point your computer will start slowing down affecting its performance, some applications will close automatically and you might regret opening the file.
+RAM is shared across all the applications on your machine, as well as with the operational system. For example, your browser can consume 3 GB, plus the music player, plus videos, plus the applications you typically work with. Leaving between 8 or 5 GB of free RAM to work with other files. Opening a single 4 GB dataset takes almost half of your available memory. At this point your computer will start slowing down affecting its performance, some applications will close automatically and you might regret opening the file.
 
 ### Getting More RAM
 
