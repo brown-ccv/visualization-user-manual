@@ -10,7 +10,7 @@ Welcome to CCV's User Manual for visualization software. This is a collaborative
 
 ## C**enter for** Computation and Visualization \(CCV\)
 
-We are a group of data scientist, researchers, and  software engineers working together to help the academic community on studying and analyzing data. We enjoy developing tools, implementing interactive applications and work the latest technologies to help scientist to move forward with their projects.
+We are a group of data scientist, researchers, and  software engineers working together to help the academic community on studying and analyzing data. We enjoy developing tools, implementing interactive applications, and work the latest technologies to help scientist to move forward with their projects.
 
 We are fully committed to provide technical and scientific support and share knowledge across Brown university.
 
