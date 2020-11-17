@@ -2,7 +2,7 @@
 description: How much information is in your hands.
 ---
 
-# Size of Datasets
+# Size of Data Sets
 
 Another fundamental question to consider when visualizing data is: "_How large is the data_ _set?"_ Or put differently, "_How much space does it occupy on the hard disk?_" This might affect the performance of your computer at the moment you work with it. Nowadays,  the most sophisticated scanners, microscopes and cameras produce very high definition \(HD\) images which consume a lot of space in memory. Opening a large 3D data with 4K HD quality will likely use most of your machine's RAM,  and it will affect user interaction and lower  the frames per second \(fps\).
 
