@@ -50,7 +50,7 @@ The only required parameter is **-u** &lt;user-email&gt;. The scripts uses it to
 {% hint style="info" %}
 Queuing Times
 
-The service depends on the availability of resources of the slurm partition. If you want to allocate a large amount of memory, expect high queuing time. 
+The service depends on the availability of resources on the slurm partition. If you want to allocate a large amount of memory, expect high queuing times. 
 {% endhint %}
 
 As the command executes as a batch job that will get resources when they are available, an email is sent to the user indicating that the service is running and the IP address you need to connect to. 
