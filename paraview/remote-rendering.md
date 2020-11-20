@@ -14,21 +14,38 @@ The Center for Computation and Visualization offers to the academic community a 
 
 ## Start the server
 
-You need to allocate the resources via slurm indicating the number of CPUs, GPUs and the amount of memory you want to run the server with. Luckily, there is a program in Oscar that facilitates this request.
+You need to allocate the resources via slurm indicating the amount of memory you want to reserve, plus a few optional parameters to configure your session. Luckily, there is a program in Oscar that facilitates this request.
 
 `run-remote-server -u your_brown_email@brown.edu`
 
-By default, the script request 4 CPUs, 4 GPUs and 30G of RAM. But you can modify these by adding more parameters to the command.
+By default, the script request 40G of RAM \(320GB is the maximum at the moment\). You can modify it by adding an extra parameter. The following is the description of the command plus the available configuration settings.
 
 `usage: run-remote-render [-n cores] [-t walltime] [-m memory] [-q queue] [-o outfile] [-g ngpus] [-u user brown email]  
 Allocates resources, start up the render server and send and email to the user requesting the service  
 options:   
--c cores (default: 4)   
 -t walltime as hh:mm:ss (default: 1:30:00)   
 -m memory as #[k|m|g] (default: 30G)   
 -o outfile save a copy of the session's output to outfile (default: off)  
--g ngpus (default 4)  
+-q slurm partition (gpu (default)| gpu-he)  
 -u brown email of the user requesting the service`
+
+In order to request a custom amount of memory add **-m** to the command.
+
+`run-remote-server -m 150G -u your_brown_email@brown.edu`
+
+By default, the nodes will be reserved in the gpu partition. However, this is the general slurm queue used by most of the projects running in Oscar. If you have access to a  less busy slurm partition, you can point to it using the **-q** parameter.
+
+`run-remote-server -q <other-partition> -u your_brown_email@brown.edu`
+
+{% hint style="warning" %}
+The only required parameter is **-u** &lt;user-email&gt;. The scripts uses it to email  the specified account informing the service is ready to be used.
+{% endhint %}
+
+{% hint style="info" %}
+Queuing Times
+
+The service depends on the availability of resources of the slurm partition. If you want to allocate a large amount of memory, expect high queuing time. 
+{% endhint %}
 
 As the command executes as a batch job that will get resources when they are available, an email is sent to the user indicating that the service is running and the IP address you need to connect to. 
 
