@@ -24,7 +24,7 @@ and request resources to start the service as soon as they are available.
 
 `run-remote-server -u your_brown_email@brown.edu`
 
-By default, the script request 40G of RAM \(320GB is the maximum at the moment\). You can modify it by adding an extra parameter. The following is the description of the command plus the available configuration settings.
+By default, the script allocates 40G of RAM \(320GB is the maximum at the moment\). You can modify it by adding an extra parameter. The following is the description of the command plus the available configuration settings.
 
 `usage: run-remote-render [-n cores] [-t walltime] [-m memory] [-q queue] [-o outfile] [-g ngpus] [-u user brown email]  
 Allocates resources, start up the render server and send and email to the user requesting the service  
