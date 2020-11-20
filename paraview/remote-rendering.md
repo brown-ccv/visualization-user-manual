@@ -162,9 +162,10 @@ In Paraview UI go to the menu bar "View" and select "Memory Inspector". You will
 ## Summary
 
 1.  Open a terminal an connect to Oscar \(Follow [this link](https://docs.ccv.brown.edu/oscar/getting-started) to know how to do it\)
-2.  Execute the command `run-remote-server -u your_brown_email@brown.edu`.
-3.  Wait for the email indicating the server is running 
-4. Connect to the server using Paraview Client
+2. load the Paraview module `module load paraview/5.8.0_release`
+3.  Execute the command `run-remote-server -u your_brown_email@brown.edu`.
+4.  Wait for the email indicating the server is running 
+5. Connect to the server using Paraview Client
 
 
 
