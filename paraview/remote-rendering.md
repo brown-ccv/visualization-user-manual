@@ -22,7 +22,7 @@ First, load the paraview module that supports this service
 
 and request resources to start the service as soon as they are available.
 
-`run-remote-server -u your_brown_email@brown.edu`
+`run-remote-server -u your_brown_username@brown.edu`
 
 By default, the script allocates 40G of RAM \(320GB is the maximum at the moment\). You can modify it by adding an extra parameter. The following is the description of the command plus the available configuration settings.
 
