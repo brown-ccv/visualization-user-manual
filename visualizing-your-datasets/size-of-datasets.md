@@ -50,7 +50,7 @@ Large datasets can be subdivided in multiple parts and distributed within the HP
 
 The internet connection on the user's side must be reliable and the more bandwidth the better. Studying large datasets can take some time and losing the connection in the middle of the process could make you start from zero \(This is not true for batch jobs\). Slow connections can deteriorate the interaction with the data and frustrate any attempt to analyze it.
 
-The quality of the server side side also impacts the process. If multiple users request resources at the same time, some of them will have to wait until more resources are available. The more CPUs and GPUs you can access the better. However, obtaining more computational power might imply additional fees. Sometimes, the servers are out of service for maintenance and updates, so users will be affected by this downtime.
+The quality of the server side side also impacts the process. If multiple users request resources at the same time, some of them will have to wait until more resources are available. The more CPUs and GPUs you can access the better. However, obtaining more computational power might imply additional fees. Additionally, there are times when the servers are out of service for maintenance and updates, so users will be affected by this downtime.
 
 
 
