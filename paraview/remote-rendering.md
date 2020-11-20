@@ -16,6 +16,12 @@ The Center for Computation and Visualization offers to the academic community a 
 
 You need to allocate the resources via slurm indicating the amount of memory you want to reserve, plus a few optional parameters to configure your session. Luckily, there is a program in Oscar that facilitates this request.
 
+First, load the paraview module that supports this service
+
+`module load paraview/5.8.0_release`
+
+and request resources to start the service as soon as they are available.
+
 `run-remote-server -u your_brown_email@brown.edu`
 
 By default, the script request 40G of RAM \(320GB is the maximum at the moment\). You can modify it by adding an extra parameter. The following is the description of the command plus the available configuration settings.
