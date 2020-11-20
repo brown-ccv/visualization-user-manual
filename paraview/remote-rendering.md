@@ -118,7 +118,7 @@ In the next screen, select Startup Type : Manual. Click on Save, select the new 
 1. Open terminal: Applications - &gt; Utilities -&gt; Terminal \(this might differ depending on the Operating System UI\)
 2. Run the commands
 
-$ module load paraview/5.8.0
+$ module load paraview/5.8.0\_release
 
 $module load mpi/openmpi\_4.0.4\_gcc
 
