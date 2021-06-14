@@ -18,7 +18,7 @@ You need to allocate the resources via slurm indicating the amount of memory you
 
 First, load the paraview module that supports this service
 
-`module load paraview/5.8.0_release`
+`module load paraview/5.9.0`
 
 and request resources to start the service as soon as they are available.
 
@@ -64,7 +64,7 @@ The message indicates you have to connect to the server `gpu1210.oscar.ccv.brown
 
 ### **Using your desktop computer \(Recommended\)**
 
-Go to the official [Paraview Download website](https://www.paraview.org/download/). Select your Operational system \(Linux, Windows or Mac\) and get the file `ParaView-5.8.0-Windows-Python3.7` . Install in your environment, go to the installation directory and open Paraview.
+Go to the official [Paraview Download website](https://www.paraview.org/download/). Select your Operational system \(Linux, Windows or Mac\) and get the file `ParaView-5.9.0-Windows-Python3` . Install in your environment, go to the installation directory and open Paraview.
 
 #### Setting up Connection Tunneling.
 
@@ -118,9 +118,7 @@ In the next screen, select Startup Type : Manual. Click on Save, select the new 
 1. Open terminal: Applications - &gt; Utilities -&gt; Terminal \(this might differ depending on the Operating System UI\)
 2. Run the commands
 
-$ module load paraview/5.8.0\_release
-
-$module load mpi/openmpi\_4.0.4\_gcc
+$ module load paraview/5.9.0
 
  $ paraview\_ui
 
@@ -162,7 +160,7 @@ In Paraview UI go to the menu bar "View" and select "Memory Inspector". You will
 ## Summary
 
 1.  Open a terminal an connect to Oscar \(Follow [this link](https://docs.ccv.brown.edu/oscar/getting-started) to know how to do it\)
-2. load the Paraview module `module load paraview/5.8.0_release`
+2. load the Paraview module `module load paraview/5.9.0`
 3.  Execute the command `run-remote-server -u your_brown_email@brown.edu`.
 4.  Wait for the email indicating the server is running 
 5. Connect to the server using Paraview Client
